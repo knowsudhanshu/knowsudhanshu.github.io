@@ -1014,6 +1014,84 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 
 /**
+ * languagebars - (_languagebars.scss)
+ * -------------------------------------------------------------------
+ */
+ .language-bars {
+	list-style: none;
+	margin: 6rem 0 3rem;
+}
+.language-bars li {
+	height: .6rem;
+	background: #858484;
+	width: 100%;
+	margin-bottom: 6rem;
+	padding: 0;
+	position: relative;
+}
+.language-bars li strong {
+	position: absolute;
+	left: 0;
+	top: -3rem;
+	font-family: "poppins-bold", sans-serif;
+	color: #fdf8f8;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	font-size: 1.5rem;
+	line-height: 2.4rem;
+}
+.language-bars li .progress {
+	background: #fdfcfc;
+	position: relative;
+	height: 100%;
+}
+.language-bars li .progress span {
+	position: absolute;
+	right: 0;
+	top: -3.6rem;
+	display: block;
+	font-family: "poppins-regular", sans-serif;
+	color: rgb(198, 192, 192);
+	font-size: 1.1rem;
+	line-height: 1;
+	background: #313131;
+	padding: .6rem .6rem;
+	border-radius: 3px;
+}
+.language-bars li .progress span::after {
+	position: absolute;
+	left: 50%;
+	bottom: -5px;
+	margin-left: -5px;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	border-top: 5px solid #fbf9f9;
+	content: "";
+}
+
+.language-bars li .percent5   { width: 5%; }
+.language-bars li .percent10  { width: 10%; }
+.language-bars li .percent15  { width: 15%; }
+.language-bars li .percent20  { width: 20%; }
+.language-bars li .percent25  { width: 25%; }
+.language-bars li .percent30  { width: 30%; }
+.language-bars li .percent35  { width: 35%; }
+.language-bars li .percent40  { width: 40%; }
+.language-bars li .percent45  { width: 45%; }
+.language-bars li .percent50  { width: 50%; }
+.language-bars li .percent55  { width: 55%; }
+.language-bars li .percent60  { width: 60%; }
+.language-bars li .percent65  { width: 65%; }
+.language-bars li .percent70  { width: 70%; }
+.language-bars li .percent75  { width: 75%; }
+.language-bars li .percent80  { width: 80%; }
+.language-bars li .percent85  { width: 85%; }
+.language-bars li .percent90  { width: 90%; }
+.language-bars li .percent95  { width: 95%; }
+.language-bars li .percent100 { width: 100%; }
+
+
+/**
  * ===================================================================
  * 08. common styles (_layout.scss)
  *
