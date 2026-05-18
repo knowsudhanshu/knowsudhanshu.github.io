@@ -12,15 +12,15 @@
 	/*---------------------------------------------------- */
 	/* Preloader
 	------------------------------------------------------ */ 
-   $(window).load(function() {
+   $(window).on('load', function() {
 
-      // will first fade out the loading animation 
+      // will first fade out the loading animation
     	$("#loader").fadeOut("slow", function(){
 
         // will fade out the whole DIV that covers the website.
         $("#preloader").delay(300).fadeOut("slow");
 
-      });       
+      });
 
   	})
 
@@ -54,6 +54,18 @@
 	     ],
         navigationText: false
     });
+
+
+	/*----------------------------------------------------- */
+	/* Skill Bar Animation
+  	------------------------------------------------------- */
+	$('#about .skill-bars').waypoint({
+		handler: function() {
+			$(this.element).addClass('animated');
+			this.destroy();
+		},
+		offset: '80%'
+	});
 
 
 	/*----------------------------------------------------- */
