@@ -2565,4 +2565,20 @@ footer .copyright span:last-child::after {
 	background: #000000;
 }
 
+/**
+ * timeline content bullet list
+ */
+#resume .timeline-content ul.disc {
+	margin-top: 1.2rem;
+	margin-left: 2rem;
+}
+#resume .timeline-content ul.disc li {
+	font-family: "poppins-regular", sans-serif;
+	font-size: 1.5rem;
+	color: #888888;
+	line-height: 1.8;
+	margin-bottom: .6rem;
+	padding-left: .4rem;
+}
+
 /*# sourceMappingURL=main.css.map */
